@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --gold:#daa520;
+    --blue:#2980b9;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(.37,1.14,.26,1.24);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+/* ======================================================= about start here  */
+.heading{
+    color:var(--gold);
+    font-size: 3.5rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    letter-spacing: .2rem;
+  }
+
+.about{
+    min-height: 100vh;
+  }
+  
+  .about .a-row{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:90%;
+    margin:0 auto;
+  }
+  
+  .about .a-row .image img{
+    height:65vh;
+    width: 50vw;
+    border-radius: 2rem;
+  }
+  
+  .about .a-row .content h3{
+    font-size: 4rem;
+    text-align: center;
+    color:var(--gold);
+  }
+  
+  .about .a-row .content p{
+    text-align: start;
+    padding: 5rem 5rem;
+    font-size: 1.9rem;
+    color:#333;
+  }
+  
+ 
+  
+/* ======================================================= about start end  */
+/* ======================================================= Privacy Policy start end  */
+.p-heading{
+    color:var(--gold);
+    font-size: 3.5rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    letter-spacing: .2rem;
+  }
+
+  .Privacy{
+    min-height: 100vh;
+  }
+
+  .Privacy .p-row{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:90%;
+    margin:0 auto;
+  }
+
+  .Privacy .p-row .p-content h3{
+    font-size: 2rem;
+    text-align: center;
+    color:var(--gold);
+  }
+  
+  .Privacy .p-row .p-content p{
+    text-align: start;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    color:#333;
+  }
+/* ======================================================= Privacy Policy start end  */
